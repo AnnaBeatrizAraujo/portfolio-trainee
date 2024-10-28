@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <a href="/"> Ana Beatriz </a>
+        </div>
+        
+        <div class="right">
+            <a href="https://github.com/AnnaBeatrizAraujo" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+            <span>Github</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/ana-beatriz-ara%C3%BAjo-563a08331/">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+                </a>
+
+                <a href="mailto:ana.araujo@orcestra.com.br">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+
+
+        </div>
+    </nav>
+
+    <main>
+        
+        <section class="hero-section">
+            <div class="text">
+                <h2> Olá, meu nome é Ana </h2>
+                <p> Tenho 18 anos e estou no 2° semestre de Engenharia de Software na Universidade de Brasília. Atuamente eu faço dois cursos de idiomas (inglês e espanhol) no Centro Interescolar de Línguas do Gama e futuramente pretendo aprender francês e mandarim. Estou constantemente buscando aprendizado para aprimorar minha carreira e conseguir mais experiência.
+                </p> 
+
+                 <div class="links">
+                    <a href="#hobbies"> 
+                    <i class="fa-solid fa-music"></i>
+                    <span>Hobbies</span>
+                </a>
+
+                <a href="#contato"> 
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Contato</span>
+                </a>
+            </div>
+        </div>
+            <div class="headshot">
+                <img src="fotobranca.png" alt="Foto de Ana Beatriz">
+            </div>
+        </section>
+
+        <section id="hobbies" class="hobbies-section">
+            <h2>Hobbies</h2>
+
+            <div class="container">
+                <div class="group">
+                    <div class="hobbies-details">
+                    <img src="livro.jpg" alt="Foto de um livro com uma xícara em cima.">
+                    <p>Leitura</p>
+                    <p>Passatempo favorito</p>
+                </div>
+
+                <div class="text">
+                    "Ler livros é o meu hobby preferido desde criança, principalmente livros de fantasia, ficção científica 
+                     e suspense que me fascinam e me deixam inebriada. Um dos meus livros favoritos é 
+                     <a href="https://www.amazon.com.br/rainha-vermelha-Victoria-Aveyard/dp/8565765695" target="_blank">A Rainha Vermelha</a>, 
+                     que aborda muitos temas sensíveis e ao mesmo tempo é uma história envolvente."
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="hobbies-details">
+                        <img src="gatomusica.jpg" alt="Gato com fones de ouvido.">
+                        <p>Música</p>
+                        <p>Sempre no cotidiano</p>
+                    </div>
+    
+                    <div class="text">
+                        "Sempre gosto de escutar música no dia a dia seja para relaxar ou criar cenários fictícios na minha cabeça.
+                        Meu estilo musical é bem variado mas eu gosto bastante de MPB, Pop, Soul e muitos outros. Uma das minhas músicas 
+                        favoritas no momento é 
+                         <a href="https://open.spotify.com/intl-pt/track/4Anh5Ti55P6SXG3H94QLqV?si=1e731405bdfc47c9" target="_blank">I Need You</a>,
+                         da banda America."
+                        </div>
+                    </div>
+
+                    <div class="group">
+                        <div class="hobbies-details">
+                            <img src="anime.jpg" alt="Anime na tela do notebook.">
+                            <p>Filmes e Séries</p>
+                            <p>Maratona em casa</p>
+                        </div>
+        
+                        <div class="text">
+                            "Adoro maratonar séries/animes e assistir filmes quando tenho tempo. Os gêneros que eu mais gosto são
+                            romance, ficcção científica, drama e, para ver com os meus amigos, eu prefiro terror. Fugindo totalmente do padrão,
+                            o que eu mais assisto atualmente é 
+                             <a href="https://www.max.com/br/pt/shows/looney-tunes-show/9dcd3778-60e1-48e4-9f4e-b50ffe2a5e2e?utm_source=universal_search" target="_blank">O Show do Looney Tunes</a>
+                             porque eu acho muito engraçado (não me julgue)."
+                            </div>
+                        </div>
+    
+        </section>
+
+        <section id="contato" class="contato-section">
+            <h2>Contato</h2>
+        
+            <div class="group">
+                <div class="text">
+                    Estou sempre aberta a novas conexões. Se você tiver alguma sugestão ou apenas quiser entrar em contato, 
+                    me envie uma mensagem. Adoraria falar com você!
+                </div>
+        
+                <form action="https://formspree.io/f/xyzykpan" method="POST"> <!-- Substitua pela URL do seu serviço -->
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required> <!-- Adicionado o atributo name e required -->
+        
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required> <!-- Adicionado o atributo name e required -->
+        
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" cols="30" rows="10" required></textarea> <!-- Adicionado o atributo name e required -->
+        
+                    <button type="submit">Envie uma mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
